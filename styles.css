@@ -1,0 +1,178 @@
+/* Estilização geral do corpo da página */
+body{
+    font-family: Helvetica;
+    margin: 0;
+}
+/* Container do menu principal (usado na index.html) */
+.menu_principal {
+    background-color: #fff9f9;
+    margin: 0 auto;
+    margin-top: 180px;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid rgb(187, 184, 184);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Título do menu principal */
+.menu_principal h2 {
+    margin-top: 20px;
+    color: #003366;
+    font-size: 30px;
+}
+/* Container dos menus (usado em outras páginas para navegação) */
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 8px;
+}
+/* Botões padrão do menu */
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #336699;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    border: solid #CCCCCC;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Botão principal ("Menu principal") com cor destacada */
+.botao_principal{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #003366;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    border: solid #0055aa;
+    margin-top: 30px;
+    text-decoration: none;
+}
+/* Estilização da seção de formação educacional */
+.formacao_educacional{
+    color: #1a4d80;
+    background-color: #fff9f9;
+    border: solid rgb(187, 184, 184);
+    border-radius: 10px;
+    margin: 150px auto 0 auto;
+    width: 800px;
+    font-size: 20px;
+}
+/* Título da seção de formação */
+.formacao_educacional h1{
+    color: #003366;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+/* Estilização da área do formulário de contato */
+.formulario_contato {
+    background-color: #fff9f9;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid rgb(187, 184, 184);
+    border-radius: 10px;
+}
+/* Título do formulário */
+.formulario_contato h2 {
+    color: #003366;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 45px;
+}
+/* Rótulos dos campos do formulário */
+.formulario_contato label{
+    color: #003366;
+    display: flex;
+    align-items:flex-start;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+/* Botão de envio do formulário */
+.formulario_contato button{
+    color: #003366;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    border: solid rgb(187, 184, 184);
+    border-radius: 10px;
+}
+/* Campos do nome e do e-mail */
+.formulario_contato input{
+    border: solid rgb(187, 184, 184);
+    height: 20px;
+    border-radius: 10px;
+}
+/* Área da mensagem de texto do formulário */
+.formulario_contato textarea{
+    border: solid rgb(187, 184, 184);
+    border-radius: 10px;
+}
+/* Estilização da seção de portfólio */
+.meu_portifolio{
+    background-color: #fff9f9;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: solid rgb(187, 184, 184);;
+    border-radius: 10px;
+}
+/* Título do portfólio */
+.meu_portifolio h2{
+    color: #003366 ;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+/* Botões dos projetos do portfólio */
+.meu_portifolio button{
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    border: solid #CCCCCC; 
+    color: #336699;
+    height: 35px;
+    font-size: 18px;
+}
+/* Seção "Sobre mim" */
+.sobre-mim{
+    color: #1a4d80;
+    border: solid rgb(187, 184, 184);
+    border-radius: 10px;
+    background-color: #fff9f9;
+    margin: 150px auto 0 auto;
+    margin-bottom: 200px;
+    width: 800px;
+    text-align: center;
+}
+/* Título da seção "Sobre mim" */
+.sobre-mim h1{
+    color: #003366 ;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}

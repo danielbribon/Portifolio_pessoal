@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título da aba do navegador -->
+  <title>Formulário de Contato</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Menu de navegação no topo da página -->
+  <div class="menus">
+    <a href="index.html" class="botao_principal">Menu principal</a>
+    <a href="Formação_educacional.html" class="botao">Formação educacional</a>
+    <a href="Meu_portifólio.html" class="botao">Meu portifólio</a>
+    <a href="Sobre_mim.html" class="botao">Sobre mim</a>      
+  </div>
+  <!-- Seção com o formulário de contato -->
+  <div class="formulario_contato">
+    <h2>Entre em contato</h2>
+    <!-- Formulário que será enviado por e-mail -->
+    <form action="seu-nome-de-email@seu-email.com" method="POST" enctype="text/plain">
+      <!-- Campo de nome -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <!-- Campo de e-mail -->
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <!-- Campo de mensagem -->
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      <!-- Botão para enviar o formulário -->
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
